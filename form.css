@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    z-index: 0;
+}
+form{
+    background-color: black;
+    text-align: center;
+    padding: 0px;
+    justify-content: center;
+    align-items: start;
+    font-size: 21px;
+    padding-top: 50px;
+    margin-bottom: 0px;
+    color: white;
+    border: 30px solid rgb(207, 25, 207);
+    font-family: ;
+    
+
+
+}
+label{
+    font-weight: bold;
+    font-size: 20px;
+   
+    /* margin-left: 500px; */
+}
+input{
+    /* margin-left: 500px; */
+}
+h3{
+    font-weight: bold;
+}
+.buttonmain{
+    height: 40px;
+    width: 90px;
+}
+.buttonmain:hover{background-color: silver;
+
+}
+select{
+    height: 40px;
+    width: 140px;
+}

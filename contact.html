@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   
+
+
+
+    <script>
+        function validate(){
+            var username=document.getElementById("username");
+            var email=document.getElementById("email");
+       
+            var phonenumber=document.getElementById("phonenumber");
+            
+        
+            if(username.value=="") {
+                alert("pleese enter valid username ");
+                document.form1.username.focus();
+                return false ;
+            }
+            
+            if(email.value=="") {
+                alert("pleese enter valid email ");
+                document.form1.email.focus();
+                return false ;
+            }
+            
+          
+            
+            if(phonenumber.value=="") {
+                alert("pleese enter valid phone number");
+                document.form1.phonenumber.focus();
+                return false ;
+            }
+          
+          return true; 
+        }
+        
+        </script>
+         <title>Document</title>
+</head>
+<body>
+
+
+
+
+    <form id="submit-form"  action=""  onsubmit=  "return validate()">
+        <h3 class="contact">Contact Us </h3>
+<label>NAME</label>
+<input type="text" name="username" id="username"><br><br>
+<label>Email</label>
+<input type="email" name="email" id="email"><br><br>
+
+
+<br><br>
+<label>Phone number</label>
+<input type="number" name="phonenumber" id="phonenumber">
+<h3>Gender</h3>
+
+<div style="">
+    <input type="radio" name="Gender" id="Male">
+<label  for="Male">Male</label>
+<input type="radio" name="Gender" id="Female">
+<label  for="Female">Female</label>
+<input type="radio" name="Gender" id="Other">
+<label  for="Other">Other</label>
+<br><br>
+
+<br>
+<label style="height: 60px;">Message</label>
+<textarea name="addreess"  id="address" col="30" rows="5" ></textarea> <br><br>
+
+
+
+<label >click here </label>
+<button class="buttonmain">Submit</button>
+<!-- <input type="submit" name="submit"> -->
+<br><br>
+
+    </form>
+    
+
+
+    <script>
+        $("#submit-form").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"https://script.google.com/macros/s/AKfycbzfXcXuramF4AdC3UpkoH7TDT2SrRo506QnCCivG3Bx5POlm_PfMC7R68akwfscgRBCZw/exec",
+                data:$("#submit-form").serialize(),
+                method:"post",
+                success:function (response){
+                    alert("Form submitted successfully")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error:function (err){
+                    alert("Something Error")
+    
+                }
+            })
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,1671 @@
+body {
+    margin: 0;
+    z-index: 0;
+    /* box-sizing: border-box; */
+}
+
+nav {
+    z-index: 0;
+}
+
+.backvideo {
+    position: relative;
+}
+
+.backtext1 {
+    font-size: 4vw;
+    font-family: Boston Skyline Rough;
+    font-weight: bolder;
+    position: absolute;
+    left: 8vw;
+    top: 8vw;
+    color: white;
+
+
+}
+
+li {
+    padding: 1vw;
+}
+
+.text2 {
+    font-size: 1.7vw;
+    font-family: "Montserrat Regular", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #54565a;
+    padding-left: 8vw;
+    padding-top: 20px;
+
+
+}
+.pick2main{
+
+}
+
+.back001 {
+    background-color: rgb(255, 203, 112);
+    width: 100%;
+
+
+
+}
+.back002{
+    background-color: rgb(255, 203, 112);
+    width: 100%;
+}
+.mypic1{
+    height:435px;
+    width: 100%;
+
+}
+.mypic2{
+    height:435px;
+    margin-top: 16px;
+    width: 100%;
+
+}
+
+.textmain {
+    position: relative;
+
+}
+
+.head1 {
+    font-size: 55px;
+    font-family: "Montserrat Regular";
+    font-weight: bold;
+    position: absolute;
+    /* top: 50px; */
+    color: white;
+    top: -410px;
+    left: -190px;
+
+    /* padding-top: 10px; */
+    /* padding-left: 40px; */
+
+
+
+
+}
+
+.para1 {
+    font-size: 25px;
+    font-family: "Montserrat Regular";
+    font-weight: bold;
+    position: absolute;
+    top: -290px;
+    left: -185px;
+    color: white;
+
+}
+
+#button3 {
+    background-color: orangered;
+    position: absolute;
+    font-size: 16px;
+    font-weight: bold;
+    height: 56px;
+    width: 190px;
+    left: -120px;
+    top: -190px;
+
+}
+
+.head2 {
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+    left: -80;
+    top: 10;
+
+
+}
+
+.para2 {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.tablehere {
+    margin-top: 5vw;
+    height: 30vw;
+    /* width: 100%; */
+    background-color: white;
+    /* height: 50%; */
+    width: 97%;
+    padding-left: 3vw;
+
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 7vw;
+
+
+}
+
+.mainimg {}
+
+.table1 {
+    justify-content: end;
+    align-items: end;
+    padding-top: 2vw;
+}
+
+li {
+    list-style: none;
+}
+
+.mainpic3s {
+    position: relative;
+
+
+}
+
+.frameimg {
+    /* display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: space-between; */
+    position: absolute;
+    top: -150px;
+    margin-left: 50px;
+
+    padding: 50px;
+}
+
+.textmain000 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+    /* align-items: end; */
+    text-align: center;
+    justify-content: space-between;
+    padding: 80px;
+
+
+
+
+
+}
+
+.food {
+    font-size: 2vw;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-top: 150px;
+    color: #54565a;
+
+}
+
+.side {
+    font-size: 1vw;
+    font-family: sans-serif;
+    align-items: center;
+}
+
+.maincarosal {
+    height: 487px;
+    width: 97%;
+    position: relative;
+    padding-left: 60px;
+
+}
+
+.table1 {
+    height: 600px;
+}
+
+.mainhead01 {
+    font-family: "Boston Skyline Rough";
+    font-weight: bold;
+    color: orangered;
+    font-size: 3.5vw;
+    /* align-items: center; */
+    text-align: center;
+    padding-right: 10px;
+    padding-top: 30px;
+}
+
+.mainp {
+    font-size: 18px;
+    padding-top: 10px;
+    padding: auto;
+}
+
+.mainhead2 {
+    font-family: "Boston Skyline Rough";
+    font-weight: bold;
+    color: orangered;
+    font-size: 3.3vw;
+    /* align-items: end; */
+    margin-top: 30px;
+
+}
+
+.logo {
+    padding-left: 62px;
+    padding-top: 10px;
+    /* height: 0px; */
+    /* /* width: 100px;  */
+}
+
+
+.maincarosal img {
+    width: 97%;
+    height: 480px;
+    object-fit: cover;
+}
+
+.pick2main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.textbook {
+    position: relative;
+    padding-bottom: 4vw;
+}
+
+.book1 {
+    text-align: start;
+    font-size: 1.2vw;
+
+
+}
+
+.book2 {
+    text-align: start;
+    width: 45vw;
+    font-size: 1.2vw;
+    /* padding-bottom: 50px; */
+    position: absolute;
+    right: 0px;
+    top: 4vw;
+
+}
+
+#btn95 {
+    height: 58px;
+    background-color: orangered;
+    color: white;
+    width: 200px;
+
+}
+
+#btnfried {
+    height: 58px;
+    background-color: orangered;
+    color: white;
+    width: 200px;
+
+}
+
+.lastbar {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.lastitem {
+    text-align: end;
+    color: white;
+    position: absolute;
+    right: 0;
+
+
+}
+
+/* footer{
+    width: 100%;
+    height: 347px;
+    background-color:#54565a ; */
+/* } */
+@media screen and (max-width:1280px) {
+    .backtext1 {
+        font-size: 4.2vw;
+        font-family: Boston Skyline Rough;
+        font-weight: bolder;
+        position: absolute;
+        left: 55px;
+        top: 50px;
+        color: green;
+
+
+    }
+
+    li {
+        padding: 9px;
+    }
+
+    .text2 {
+        font-size: 2vw;
+        font-family: "Montserrat Regular", Helvetica, Arial, sans-serif;
+        font-weight: bold;
+        color: #54565a;
+        padding-left: 40px;
+        padding-top: 20px;
+
+
+    }
+
+    .textmain {
+        position: relative;
+        width: 100%;
+
+
+    }
+
+    .head1 {
+        font-size: 20px;
+        font-family: "Montserrat Regular";
+        font-weight: bold;
+        /* position: absolute; */
+        /* top: 50px; */
+        color: white;
+
+        /* padding-top: 10px; */
+        /* padding-left: 40px; */
+        display: none;
+
+
+
+
+    }
+
+    .para1 {
+        font-size: 10px;
+        font-family: "Montserrat Regular";
+        font-weight: bold;
+        /* position: absolute; */
+        /* top: 0px; */
+        left: -20px;
+        color: white;
+        display: none;
+
+    }
+
+    .head2 {
+        font-size: 5px;
+        font-family: sans-serif;
+        font-weight: bold;
+        /* position: absolute; */
+        /* left: -80; */
+        /* top: 10; */
+        display: none;
+
+
+    }
+
+    .para2 {
+        font-size: 10px;
+        font-family: sans-serif;
+        font-weight: bold;
+        /* display: none; */
+    }
+
+    #buttonhere {
+        margin-right: 200px;
+        font-size: 1.5vw !important;
+        height: 5.2vw !important;
+        width: 15vw !important;
+        margin-top: 20px;
+
+
+    }
+
+    #button1 {
+        margin-top: 10px;
+        font-size: 12px !important;
+        /* font-size: 4px !important; */
+        height: 50px !important;
+        width: 60px;
+        background-color: orangered !important;
+        color: white !important;
+        
+
+    }
+
+    #button2 {
+        margin-top: 10px;
+     
+        font-size: 12px !important;
+        /* font-size: 4px !important; */
+        height: 50px !important;
+        width: 60px;
+        background-color: orangered;
+    }
+
+    #button3 {
+        margin-right: -100px !important;
+        display: none;
+    }
+
+    .text2 {
+        font-size: 2.1vw;
+        margin-right: px;
+        margin-top: 30px;
+        padding-top: 33px;
+
+    }
+
+    .book0 {}
+
+    .book1 {
+        font-size: 10px;
+        width: px;
+
+    }
+
+    .book2 {
+        font-size: 12px;
+        width: 280px;
+    }
+    .table1{
+        height: 500px;
+        width: 800px;
+    }
+    .mainhead01{
+        font-size: 4vw;
+
+    }
+    .mainhead2{
+font-size: 3vw;
+    }
+    .mainp{
+    font-size: 1.1vw;
+
+    }
+    
+    .pic1{height: 400px;
+        width: 400px;
+        margin-top: 30px;
+
+    }
+    .text100{
+        font-size:2vw;
+
+    }
+    .textmain321{
+        margin-top: 130px;
+    }
+
+
+    /* ***3box text */
+    .mainpic3s {
+        position: relative;
+        /* display: none; */
+    
+    
+    }
+    
+    .frameimg {
+        /* display: flex;
+        flex-direction: row;
+        position: absolute;
+        justify-content: space-between; */
+        position: absolute;
+        top: -110px;
+        margin-left: 50px;
+    
+        padding: 30px;
+    }
+    
+    .textmain000 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 400px;
+        /* align-items: end; */
+        text-align: center;
+        justify-content: space-between;
+        padding: 80px;
+    
+    
+    }
+    
+    .food {
+        font-size: 2vw;
+        font-family: sans-serif;
+        font-weight: bold;
+        padding-top: 100px;
+        color: #54565a;
+        margin-top: -0px;
+        /* display: none; */
+    
+    }
+    .side {
+        font-size: 1.3vw;
+        font-family: sans-serif;
+        align-items: end;
+        /* display: none; */
+    }
+    .one{
+    margin-left: -45px;
+    height: 40%;
+    width: 38%;
+
+    }
+    .two{
+
+        margin-right: 15px !important;
+        margin-left: -80px;
+    
+        height: 40%;
+        width: 38%;
+    }
+    
+    
+    .border1{
+border: 4px solid green !important ;
+
+width: 100%;
+height: 400px;
+
+
+    }
+    .boarder2{
+        border: 2px solid blue !important;
+        height: 500px;
+        width: 400px;
+
+        /* display: none; */
+
+    }
+    .boarder3{
+        /* display: none; */
+
+    }
+    #lastfoot{
+        font-size: 2px !important;
+    }
+    .lastitem{
+        font-size: 5px;
+    }
+    .lastbar{
+        font-size: 12px;
+    }
+    .mypic1{
+/* height: 280px !important;
+width: 280px !important;
+margin-top: 10px;
+margin-right: -10px; */
+width: 100%  !important; 
+height: 550px !important;
+padding: 50px;
+margin-bottom: -58.5px !important;
+    }
+    .mypic2{
+        height: 550px !important;
+        width: 100%;
+        padding: 15px;
+        padding: 10px;
+        margin-bottom: -17px;
+            }
+            .back001{
+                background-color:white;
+                height: 150px;
+                width:90.4%;
+                margin-left: 42px;
+                margin-right: 55px;
+                margin-left: 35px;
+                /* padding-left: 10px; */
+            }
+            .pishere{
+                margin-top: -90px;
+                font-size: 18px;
+
+            }
+            .pishere1{
+                margin-top: -15px;
+                font-size: 18px;
+            
+            }
+            #backback{
+                background-color:white;
+margin-left: 10px;
+width: 98.4%;
+            }
+            #backback1{background-color:white;
+                margin-left: 10px;
+            width: 98.4%;
+            }
+            .pick2main{
+                display: flex;
+                flex-direction: column;
+                
+            }
+            /* .textbook{display: none; */
+
+            /* } */
+            .textbook{
+                /* border: 2px solid black; */
+                display: none;
+            }
+            .book0{
+                font-size: 30px;
+                margin-bottom: 40px;
+                font-weight: bold;
+
+            }
+            .book1{
+                font-size: 10px;
+                height: 50px;
+                font-weight: bold;
+                padding-left: 10px;
+
+            }
+            .book2{
+                font-size: 10px;
+                height: 50px;
+                width: 360px;
+                text-align: start;
+                align-items: start;
+                margin-top: 40px;
+                font-weight: bold;
+                padding-left: 10px;
+
+            }
+            .maincarosal{
+                padding-right: 34px;
+            }   
+        }
+    
+@media screen and  (max-width:1100px) {
+    .food {
+        font-size: 2vw;
+        font-family: sans-serif;
+        font-weight: bold;
+        padding-top: 100px;
+        color: #54565a;
+        margin-top: -0px;
+        /* display: none; */
+    
+    }
+    .side {
+        font-size: 1.3vw;
+        font-family: sans-serif;
+        align-items: end;
+        /* display: none; */
+    }  
+    .frameimg {
+        margin-top: 25px;
+    } 
+}
+@media screen  and (max-width:920px) {
+ 
+    .backtext1 {
+        font-size: 4.2vw;
+        font-family: Boston Skyline Rough;
+        font-weight: bolder;
+        position: absolute;
+        left: 55px;
+        top: 50px;
+        color: green;
+
+
+    }
+
+    li {
+        padding: 9px;
+    }
+
+    .text2 {
+        font-size: 2vw;
+        font-family: "Montserrat Regular", Helvetica, Arial, sans-serif;
+        font-weight: bold;
+        color: #54565a;
+        padding-left: 40px;
+        padding-top: 20px;
+
+
+    }
+
+    .textmain {
+        position: relative;
+        width: 100%;
+
+
+    }
+
+    .head1 {
+        font-size: 20px;
+        font-family: "Montserrat Regular";
+        font-weight: bold;
+        /* position: absolute; */
+        /* top: 50px; */
+        color: white;
+
+        /* padding-top: 10px; */
+        /* padding-left: 40px; */
+        display: none;
+
+
+
+
+    }
+
+    .para1 {
+        font-size: 10px;
+        font-family: "Montserrat Regular";
+        font-weight: bold;
+        /* position: absolute; */
+        /* top: 0px; */
+        left: -20px;
+        color: white;
+        display: none;
+
+    }
+
+    .head2 {
+        font-size: 5px;
+        font-family: sans-serif;
+        font-weight: bold;
+        /* position: absolute; */
+        /* left: -80; */
+        /* top: 10; */
+        display: none;
+
+
+    }
+
+    .para2 {
+        font-size: 10px;
+        font-family: sans-serif;
+        font-weight: bold;
+        /* display: none; */
+    }
+
+    #buttonhere {
+        margin-right: 200px;
+        font-size: 1.5vw !important;
+        height: 5.2vw !important;
+        width: 15vw !important;
+        margin-top: 20px;
+
+
+    }
+
+    #button1 {
+        margin-top: 10px;
+        font-size: 12px !important;
+        /* font-size: 4px !important; */
+        height: 50px !important;
+        width: 60px;
+        background-color: orangered !important;
+        color: white !important;
+        
+
+    }
+
+    #button2 {
+        margin-top: 10px;
+     
+        font-size: 12px !important;
+        /* font-size: 4px !important; */
+        height: 50px !important;
+        width: 60px;
+        background-color: orangered;
+    }
+
+    #button3 {
+        margin-right: -100px !important;
+        display: none;
+    }
+
+    .text2 {
+        font-size: 2.1vw;
+        margin-right: px;
+        margin-top: 30px;
+        padding-top: 33px;
+
+    }
+
+    .book0 {}
+
+    .book1 {
+        font-size: 10px;
+        width: px;
+
+    }
+
+    .book2 {
+        font-size: 12px;
+        width: 280px;
+    }
+    .table1{
+        height: 500px;
+        width: 800px;
+    }
+    .mainhead01{
+        font-size: 4vw;
+
+    }
+    .mainhead2{
+font-size: 3vw;
+    }
+    .mainp{
+    font-size: 1.1vw;
+
+    }
+    
+    .pic1{height: 300px;
+        width: 250px;
+        margin-top: 30px;
+
+    }
+    .text100{
+        font-size:2vw;
+
+    }
+    .textmain321{
+        margin-top: 130px;
+    }
+
+
+    /* ***3box text */
+    .mainpic3s {
+        position: relative;
+        display: none;
+    
+    
+    }
+    
+    .frameimg {
+        /* display: flex;
+        flex-direction: row;
+        position: absolute;
+        justify-content: space-between; */
+        position: absolute;
+        top: -10px;
+        margin-left: 50px;
+        margin-top: -40px;
+    
+        padding: 30px;
+    }
+    
+    .textmain000 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 400px;
+        /* align-items: end; */
+        text-align: center;
+        justify-content: space-between;
+        padding: 80px;
+    
+    
+    }
+    
+    .food {
+        font-size: 25px;
+        font-family: sans-serif;
+        font-weight: bold;
+        padding-top: 60px;
+        color: #54565a;
+        /* display: none; */
+    
+    }
+    .one{
+    margin-left: -35px;
+    height: 40%;
+    width: 38%;
+
+    }
+    .two{
+
+        margin-right: 15px !important;
+        margin-left: -80px;
+    
+        height: 40%;
+        width: 38%;
+    }
+    
+    .side {
+        font-size: 12px;
+        font-family: sans-serif;
+        align-items: center;
+        /* display: none; */
+    }
+    .border1{
+border: 4px solid green !important ;
+
+width: 100%;
+height: 400px;
+
+
+    }
+    .boarder2{
+        border: 2px solid blue !important;
+        height: 500px;
+        width: 400px;
+
+        /* display: none; */
+
+    }
+    .boarder3{
+        /* display: none; */
+
+    }
+    #lastfoot{
+        font-size: 2px !important;
+    }
+    .lastitem{
+        font-size: 5px;
+    }
+    .lastbar{
+        font-size: 12px;
+    }
+    .mypic1{
+/* height: 280px !important;
+width: 280px !important;
+margin-top: 10px;
+margin-right: -10px; */
+width: 100%  !important; 
+height: 520px !important;
+    }
+    .mypic2{
+        height: 320px !important;
+        width: 100%;
+        padding: 15px;
+        margin-bottom: -15px;
+            }
+            .back001{
+                background-color:white;
+                height: 100px;
+                width:90%;
+                margin-left: px;
+                /* padding-left: 10px; */
+            
+                background-color: white;
+
+            }
+            .pishere{
+font-size: 16px;
+margin-top: -50px;
+            }
+            .pishere1{font-size: 16px;
+                margin-top: -15px;
+
+            }
+            .fontbold{
+                font-weight: bolder !important;
+                font-family: sans-serif;
+            }
+            #backback{
+                background-color: white;
+margin-left: 15px;
+/* font-size: 500px; */
+            }
+            #backback1{background-color:white;
+                margin-left: 15px;
+                margin-bottom: -90px;
+
+            }
+            .pick2main{
+                display: flex;
+                flex-direction: column;
+                
+            }
+            /* .textbook{display: none; */
+
+            /* } */
+            .textbook{
+                /* border: 2px solid black; */
+                display: none;
+            }
+            .book0{
+                font-size: 30px;
+                margin-bottom: 40px;
+                font-weight: bold;
+
+            }
+            .book1{
+                font-size: 10px;
+                height: 50px;
+                font-weight: bold;
+                padding-left: 10px;
+
+            }
+            .book2{
+                font-size: 10px;
+                height: 50px;
+                width: 360px;
+                text-align: start;
+                align-items: start;
+                margin-top: 40px;
+                font-weight: bold;
+                padding-left: 10px;
+
+            }
+            .maincarosal{
+                padding-right: 34px;
+            }   
+        }
+
+@media screen and (max-width:720px) {
+    /* .navbar{
+        height: 50px;
+        background-color: blue; */
+
+
+    /* footer{
+        width: 100%;
+        height: 100px; */
+
+
+    .backtext1 {
+        font-size: 4.2vw;
+        font-family: Boston Skyline Rough;
+        font-weight: bolder;
+        position: absolute;
+        left: 55px;
+        top: 50px;
+        color: green;
+
+
+    }
+
+    li {
+        padding: 9px;
+    }
+
+    .text2 {
+        font-size: 2vw;
+        font-family: "Montserrat Regular", Helvetica, Arial, sans-serif;
+        font-weight: bold;
+        color: #54565a;
+        padding-left: 40px;
+        padding-top: 20px;
+
+
+    }
+
+    .textmain {
+        position: relative;
+        width: 100%;
+
+
+    }
+
+    .head1 {
+        /* font-size: 20px; */
+        font-family: "Montserrat Regular";
+        font-weight: bold;
+        /* position: absolute; */
+        /* top: 50px; */
+        color: white;
+
+        /* padding-top: 10px; */
+        /* padding-left: 40px; */
+        display: none;
+
+
+
+
+    }
+
+    .para1 {
+        /* font-size: 10px; */
+        font-family: "Montserrat Regular";
+        font-weight: bold;
+        /* position: absolute; */
+        /* top: 0px; */
+        /* left: 0px; */
+        color: white;
+        display: none;
+
+    }
+
+    .head2 {
+        font-size: 5px;
+        font-family: sans-serif;
+        font-weight: bold;
+        /* position: absolute; */
+        /* left: -80; */
+        /* top: 10; */
+        display: none;
+
+
+    }
+
+    .para2 {
+        /* font-size: 10px; */
+        font-family: sans-serif;
+        font-weight: bold;
+        display: none;
+    }
+
+    #buttonhere {
+        margin-right: 200px;
+        font-size: 1vw !important;
+        height: 5.2vw !important;
+        width: 15vw !important;
+        margin-top: 20px;
+
+
+    }
+
+    #button1 {
+        margin-top: 10px;
+        font-size: 1vw;
+    }
+
+    #button2 {
+        margin-top: 10px;
+        font-size: 1vw;
+    }
+
+    #button3 {}
+
+    .text2 {
+        font-size: 2vw;
+        margin-right: px;
+
+    }
+
+    .book0 {}
+
+    .book1 {
+        font-size: 10px;
+        width: px;
+
+    }
+
+    .book2 {
+        font-size: 12px;
+        width: 280px;
+    }
+    .table1{
+        height: 500px;
+        width: 800px;
+    }
+    .mainhead01{
+        font-size: 4vw;
+
+    }
+    .mainhead2{
+font-size: 3vw;
+    }
+    .mainp{
+    font-size: 1.1vw;
+
+    }
+    
+    .pic1{height: 300px;
+        width: 250px;
+
+    }
+    .text100{
+        font-size:2vw;
+
+    }
+    .textmain321{
+        margin-top: 130px;
+    }
+
+
+    /* ***3box text */
+    .mainpic3s {
+        position: relative;
+        display: none;
+    
+    
+    }
+    
+    .frameimg {
+        /* display: flex;
+        flex-direction: row;
+        position: absolute;
+        justify-content: space-between; */
+        position: absolute;
+        top: -150px;
+        margin-left: 50px;
+    
+        padding: 50px;
+    }
+    
+    .textmain000 {
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        height: 300px;
+        /* align-items: end; */
+        text-align: center;
+        justify-content: space-between;
+        padding: 80px;
+    
+    
+    }
+    
+    .food {
+        font-size: 10px;
+        font-family: sans-serif;
+        font-weight: bold;
+        padding-top: 150px;
+        color: #54565a;
+        display: none;
+    
+    }
+    
+    .side {
+        font-size: 8px;
+        font-family: sans-serif;
+        align-items: center;
+        display: none;
+    }
+    .border1{
+border: 4px solid green !important ;
+height: vw !important;
+width:vw !important;
+margin-left: 10px;
+padding-right: 10px;
+display: none;
+
+
+    }
+    .boarder2{
+        border: 2px solid blue !important;
+        display: none;
+
+    }
+    .boarder3{
+        display: none;
+
+    }
+    .lastfoot{
+        font-size: .2vw;
+    }
+    .lastitem{
+        font-size: 10px;
+    }
+    .mypic1{
+height: 580px !important;
+width: 100% !important;
+margin-top: 10px;
+margin-right: -10px;
+    }
+    .mypic2{
+        height: 580px !important;
+        width: 100%;
+        margin-top: -100px ;
+            }
+            .back001{
+                /* background-color:white; */
+                height: 160px;
+                width:100%;
+            }
+            .pishere{
+                margin-top: -110px;
+                font-size: 18px;
+                /* margin-bottom: ; */
+
+            }
+            .pishere1{
+                margin-top: -15px;
+                font-size: 18px;
+            
+            }
+            .textbook{
+
+            }
+            .book0{
+                font-size: 16px;
+                margin-bottom: 20px;
+                font-weight: bold;
+
+            }
+            .book1{
+                font-size: 8px;
+                height: 50px;
+
+            }
+            .book2{
+                font-size: 8px;
+                height: 69px;
+
+            }
+    }
+
+
+    @media screen and (max-width:540px) {
+        .mainpic3s{
+            display: none;
+        }
+        .text100{
+            margin-top: 50px;
+            font-size: 25px;
+        }
+
+
+
+
+
+    }
+@media screen and (max-width:480px) {
+    /* .navbar{
+    height: 90px;
+    background-color: #54565a; */
+
+    .backtext1 {
+        font-size: 4.2vw;
+        font-family: Boston Skyline Rough;
+        font-weight: bolder;
+        position: absolute;
+        left: 55px;
+        top: 50px;
+        color: green;
+
+
+    }
+
+    li {
+        padding: 9px;
+    }
+
+    .text2 {
+        font-size: 2.5vw;
+        font-family: "Montserrat Regular", Helvetica, Arial, sans-serif;
+        font-weight: bold;
+        color: #54565a;
+        padding-left: 5vw;
+        padding-top: 20px;
+
+
+    }
+
+    .textmain {
+        position: relative;
+        width: 100%;
+
+
+    }
+
+    .head1 {
+        /* font-size: 20px; */
+        font-family: "Montserrat Regular";
+        font-weight: bold;
+        /* position: absolute; */
+        /* top: 50px; */
+        color: white;
+
+        /* padding-top: 10px; */
+        /* padding-left: 40px; */
+        display: none;
+
+
+
+
+    }
+
+    .para1 {
+        /* font-size: 10px; */
+        font-family: "Montserrat Regular";
+        font-weight: bold;
+        /* position: absolute; */
+        /* top: 0px; */
+        /* left: 0px; */
+        color: white;
+        display: none;
+
+    }
+
+    .head2 {
+        font-size: 5px;
+        font-family: sans-serif;
+        font-weight: bold;
+        /* position: absolute; */
+        /* left: -80; */
+        /* top: 10; */
+        display: none;
+
+
+    }
+
+    .para2 {
+        /* font-size: 10px; */
+        font-family: sans-serif;
+        font-weight: bold;
+        display: none;
+    }
+
+    #buttonhere {
+        margin-right: 200px;
+        font-size: 1.5vw !important;
+        height: 6.2vw !important;
+        width: 22vw !important;
+        margin-top: 20px;
+
+
+    }
+
+    #button1 {
+        margin-top: 10px;
+        
+        font-size: 4px !important;
+        height: 25px !important;
+        width: 40px !important;
+
+    }
+
+    #button2 {
+        margin-top: 10px;
+        font-size: 5px !important;
+        height: 25px !important;
+        width: 40px !important;
+    }
+
+    #button3 {}
+
+    .text2 {
+        font-size: 2vw;
+        margin-right: px;
+
+    }
+
+    .book0 {}
+
+    .book1 {
+        font-size: 10px;
+        width: px;
+
+    }
+
+    .book2 {
+        font-size: 12px;
+        width: 280px;
+    }
+    .table1{
+        height: 500px;
+        width: 800px;
+    }
+    .mainhead01{
+        font-size: 4vw;
+
+    }
+    .mainhead2{
+font-size: 3vw;
+    }
+    .mainp{
+    font-size: 1.1vw;
+
+    }
+    
+    .pic1{height: 250px;
+        width: 210px;
+        margin-bottom: 50px;
+
+    }
+    .text100{
+        font-size:2vw;
+        display: none;
+
+    }
+    .textmain321{
+        margin-top: 130px;
+        display: none ;
+    }
+    .whitel{
+        color: white ;
+        
+    }
+
+
+    /* ***3box text */
+    .mainpic3s {
+        position: relative;
+        display: none;
+    
+    
+    }
+    
+    .frameimg {
+        /* display: flex;
+        flex-direction: row;
+        position: absolute;
+        justify-content: space-between; */
+        position: absolute;
+        top: -150px;
+        margin-left: 50px;
+    
+        padding: 50px;
+    }
+    
+    .textmain000 {
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        height: 300px;
+        /* align-items: end; */
+        text-align: center;
+        justify-content: space-between;
+        padding: 80px;
+    
+    
+    }
+    
+    .food {
+        font-size: 10px;
+        font-family: sans-serif;
+        font-weight: bold;
+        padding-top: 150px;
+        color: #54565a;
+        display: none;
+    
+    }
+    
+    .side {
+        font-size: 8px;
+        font-family: sans-serif;
+        align-items: center;
+        display: none;
+    }
+    .border1{
+border: 4px solid green !important ;
+height: vw !important;
+width:vw !important;
+margin-left: 10px;
+padding-right: 10px;
+display: none;
+
+
+    }
+    .boarder2{
+        border: 2px solid blue !important;
+        display: none;
+
+    }
+    .boarder3{
+        display: none;
+
+    }
+    #lastfoot{
+        font-size: 2px !important;
+    }
+    .lastitem{
+        font-size: 5px;
+    }
+    .lastbar{
+        font-size: 12px;
+    }
+    .mypic1{
+/* height: 280px !important;
+width: 280px !important;
+margin-top: 10px;
+margin-right: -10px; */
+width: 100%  !important; 
+height: 300px !important;
+    }
+    .mypic2{
+        height: 300px !important;
+        width: 100%;
+        padding: 15px;
+            }
+.pishere{
+    font-size: 3vw;
+}
+.pishere1{
+    font-size: 3vw;
+}
+.fontbold{
+font-size: 6vw;
+}
+.fontbold1{font-size: 6vw;
+
+    font-weight: bolder;
+    font-family: sans-serif;
+
+}
+#btnfried{
+    height: 10vw;
+    width: 32vw ;
+    font-size: 2.5v;
+}
+#btn95{
+    height: 10vw;
+    width: 32vw ;
+    font-size: 2.5vw;
+}
+            .back001{
+                /* background-color:white; */
+                height: 160px;
+                width:80%;
+                /* padding-left: 10px; */
+            }
+            .pick2main{
+                display: flex;
+                flex-direction: column;
+            }
+            .textbook{display: none;
+
+            }
+            .book0{
+                font-size: 10px;
+                margin-bottom: 20px;
+                font-weight: bold;
+
+            }
+            .book1{
+                font-size: 5px;
+                height: 50px;
+
+            }
+            .book2{
+                font-size: 5px;
+                height: 69px;
+                text-align: end;
+                align-items: start;
+
+            }
+            .maincarosal{
+                padding-right: 34px;
+            }
+    
+}
+
