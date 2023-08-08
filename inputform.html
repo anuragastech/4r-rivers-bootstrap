@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+<script>
+    function validateForm() {
+        
+        var correctWay = /^[A-Za-z ]+$/; 
+        
+        var a = document.forms["myform"]["fname"].value;
+        var aError = document.getElementById("message");
+       
+        if (a === "") {
+            aError.innerHTML = "Please fill in the first name";
+            return false;
+        }
+       
+        if (a.length < 3) {
+            aError.innerHTML = "First name must be at least 3 characters";
+            return false;
+        }
+       
+        if (a.length > 20) {
+            aError.innerHTML = "First name must be less than 20 characters";
+            return false;
+        }
+       
+        if (!a.match(correctWay)) {
+            aError.innerHTML = "Only alphabets are allowed in the first name";
+            return false;
+        }
+       
+        aError.innerHTML = ""; 
+        
+        
+        var b = document.forms["myform"]["lname"].value;
+        var bError = document.getElementById("message1");
+       
+        if (b === "") {
+            bError.innerHTML = "Please fill in the last name";
+            return false;
+        }
+       
+        if (b.length < 3) {
+            bError.innerHTML = "Last name must be at least 3 characters";
+            return false;
+        }
+       
+        if (b.length > 20) {
+            bError.innerHTML = "Last name must be less than 20 characters";
+            return false;
+        }
+       
+        if (!b.match(correctWay)) {
+            bError.innerHTML = "Only alphabets are allowed in the last name";
+            return false;
+        }
+       
+        bError.innerHTML = "";
+        
+      
+        var c = document.forms["myform"]["email"].value;
+        var cError = document.getElementById("messageMail");
+       
+        if (c === "") {
+            cError.innerHTML = "Please fill in the email";
+            return false;
+        }
+       
+        if (c.indexOf('@') <= 0 || (c.charAt(c.length - 4) !== '.' && c.charAt(c.length - 3) !== '.')) {
+            cError.innerHTML = "Invalid email format";
+            return false;
+        }
+       
+
+        cError.innerHTML = "";
+        
+        
+        var x = document.forms["myform"]["number"].value;
+        var xError = document.getElementById("messageNumber");
+
+       
+        if (x === "") {
+            xError.innerHTML = "Please fill in the mobile number";
+            return false;
+        }
+       
+        if (isNaN(x) || x.length !== 10) {
+            xError.innerHTML = "Enter a valid 10-digit numeric mobile number";
+            return false;
+        }
+       
+        xError.innerHTML = ""; 
+        
+        return true; 
+    }
+
+    function submitForm() {
+        if (validateForm()) {
+            $.ajax({
+                url: "https://script.google.com/macros/s/AKfycbzfXcXuramF4AdC3UpkoH7TDT2SrRo506QnCCivG3Bx5POlm_PfMC7R68akwfscgRBCZw/exec",
+                data: $("#submit-form").serialize(),
+                method: "post",
+                success: function(response) {
+                    alert("Form submitted successfully");
+                    resetForm();
+                },
+                error: function(err) {
+                    alert("Something went wrong");
+                }
+            });
+        }
+    }
+
+    function resetForm() {
+        document.getElementById("submit-form").reset();
+        document.getElementById("message").innerHTML = "";
+
+        document.getElementById("message1").innerHTML = "";
+        document.getElementById("messageMail").innerHTML = "";
+        document.getElementById("messageNumber").innerHTML = "";
+        document.getElementById("Message").innerHTML = "";
+    }
+</script>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <form class="row g-3" method="post" name="myform" id="submit-form">
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">First name</label>
+                    <input type="text" class="form-control" id="fname" name="fname" value="">
+                    <span id="message" class="text-danger font-weight-" style="font-size: 16px;"></span>
+
+                </div> <br> <br>
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Last name</label>
+                    <input type="text" class="form-control" id="lname" name="lname" value="">
+                    <span id="message1" class="text-danger font-weight"  style="font-size: 16px;"></span> 
+                </div> <br><br>
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="text" class="form-control" id="email" name="email" value="">
+                    <span id="messageMail" class="text-danger  " style="font-size: 16px;"></span>
+                </div><br> <br>
+
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Contact No</label>
+                    <input type="text" name="number" class="form-control" id="number" value="">
+                    <span id="messageNumber" class="text-danger font-weight"style="font-size: 16px;" ></span>
+                </div> <br> <br>
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Message</label>
+                    <textarea class="form-control" name="msg" id="msg" rows="2" placeholder="Message"></textarea>
+                    <span id="Message" class="text-danger " style="font-size: 16px;"></span>
+                </div> <br> <br>
+                <div class="col-12 pt-3">
+                    <button style="height: 33px ;width: 70px;" type="button" class="btn btn-primary" onclick="submitForm()">Submit</button>
+                </div> <br>
+            </form>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>
